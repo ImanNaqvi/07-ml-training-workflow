@@ -1,7 +1,7 @@
-age,income,city,target
-25,50000,Doha,1
-30,,Doha,0
-,72000,Lusail,1
-40,65000,Doha,0
-35,80000,,1
-28,54000,Doha,0
+text,label
+good movie,1
+great acting,1
+bad plot,0
+terrible film,0
+loved it,1
+hated it,0
