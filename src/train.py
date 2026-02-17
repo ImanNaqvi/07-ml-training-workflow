@@ -9,8 +9,8 @@ def main():
     df = load_and_clean("data/sample.csv")
 
     # Separate features and target
-    y = df["target"]
-    X = df.drop(columns=["target"])
+    y = df["label"]
+    X = df.drop(columns=["label"])
 
     # One-hot encode categorical columns (e.g., city)
     X = pd.get_dummies(X, drop_first=True)
@@ -29,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
