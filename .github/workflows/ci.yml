@@ -24,6 +24,7 @@ jobs:
 
       - name: Run unit tests
         run: PYTHONPATH=. pytest -q
-
+        
       - name: Run training (only if tests pass)
-        run: python src/train.py
+        run: python -m src.train
+
